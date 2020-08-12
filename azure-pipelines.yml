@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/xcode
 
 pool:
-  vmImage: 'macos-latest'
+  vmImage: 'macOS 11.06'
 
 steps:
 - task: Xcode@5
